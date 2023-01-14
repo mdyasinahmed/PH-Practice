@@ -1,0 +1,4 @@
+2-2 Color, Measuring Unit, font size, font-weight, height, width, alignment
+  Color - Hexa > RGB > Name
+  Measuring Unit - 
+        

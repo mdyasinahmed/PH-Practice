@@ -1,0 +1,85 @@
+# HTML Basic Tags
+    - html tag
+    - head tag
+    - body tag
+    - paragraph tag
+    - heading tag
+    - anchor tag
+    - list tag
+    - form tag
+    - table tag
+    
+    * HTML FORMAT
+        <!DOCTYPE>
+        <html>
+            <head>
+                <title></title>
+            </head>
+            <body>
+                ---------
+                ---------
+                ---------
+                ---------
+            </body>
+        </html>
+
+# Type of CSS:
+    1. Inline CSS
+    2. Internal CSS
+    3. External CSS
+
+# INTRODUCTION TO GIT
+    git Push
+    git Add
+    git Pull
+    git Commit
+
+    *Benefits of git
+    - Save Time
+    - Offline working
+    - Undo Mistakes
+    - Track Changes
+
+1-1 Welcome To The World Of HTML
+    - installing code editor
+    
+    - Creating Webfile
+
+    - HTML --> Hypertext Markup Language
+
+1-2 Paragraphs, bold vs strong, italic, small
+    summary -->
+        p tag => paragraph
+        b tag => bold
+        strong => bold (semantic)
+        i tag => italic
+        small tag => make text smaller(semantic)
+
+1-3 Headings And Semantic Tag Inline And Block Elements
+    * Previous repeat
+    * summary 
+        block element => p, h1, h2
+        inline
+
+1-4 Html Link Anchor Tag, Href, Target Attributes
+
+    - <a> tag defines a hyperlink, which is used to link from one page to another.
+    - href attribute, which indicates the link's destination.
+
+1-5 Image Tag With Attributes Display Online Image, Local Image, Folder Image
+        - giving path in src
+        - local & from internet
+
+1-6 List, Container Tag, Ordered List, Unordered List
+    - List
+    - Container Tag
+    - Ordered List
+    - Unordered List
+
+1-7 HTML forms: input types, buttons and text field, select, option
+    - input types
+    - buttons
+    - text field
+    - select
+    - option
+

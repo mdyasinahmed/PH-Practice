@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Website</title>
+    <style>
+        body{
+            max-width: 800px;
+            margin: 0px auto;
+            padding: 10px;
+            border: 1px solid gray;
+        }
+        h1{
+            font-size: 5vw;
+            color: rgb(80, 24, 132);
+        }
+        h3{
+            font-size: 5vw;
+            color: rgb(239, 86, 15);
+        }
+        .tiger img{
+            width: 100%;
+        }
+        /*Two Parts*/
+        .container-two{
+            display: flex;
+        }
+        .container-two .split{
+            width: 50%;
+            padding: 10px;
+        }
+        /* make image responsive inside */
+        .container-two .split img{
+            width: 100%;
+        }
+        /*smaller device*/
+        @media screen and (max-width: 578px){
+            /*Only changes CSS Property*/
+            .container-two{
+                flex-direction: column-reverse;
+            }
+            .container-two .split{
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!--
+    // Seven things need to do to make a website responsive:
+        1. Viewport meta tag
+        2. CSS Relative unit
+        3. Responsive Image (Fluid Image)
+        4. Body max-width and margin auto
+        5. Responsive Split screen using flex (2 column section)
+        6. Grid Responsive (multi-column)
+
+    -->
+    <section>
+        <h1>My Responsive Website</h1>
+    </section>
+    <section class="tiger">
+        <h3>Tiger</h3>
+        <img src="https://cdn.mos.cms.futurecdn.net/qmTrmidGxtYqoT4zjoxPcV-970-80.jpg.webp" alt="tiger">
+    </section>
+    <section>
+        <h3>Two Parts</h3>
+        <div class="container-two">
+            <div class="split"><img src="https://zooatlanta.org/wp-content/uploads/tiger_chelsea_ZA_9296-750x500.jpg" alt="tiger-1"></div>
+            <div class="split"><img src="https://zooatlanta.org/wp-content/uploads/2016/12/tiger_kavi_ZA_5242-750x500.jpg" alt="tiger-2"></div>
+        </div>
+    </section>
+</body>
+</html>

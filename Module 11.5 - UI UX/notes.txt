@@ -1,0 +1,22 @@
+Rules to follow as best practice while designing a website
+    
+    1. Purpose wise simplification
+    
+    2. Consistency
+
+    3. Alignment
+    
+    4. Color thinking
+            UI color picker
+            color pallete
+    5. typography
+
+        source 
+            themeforest
+            freepick
+            dribble
+            behance
+            awwwards
+            
+
+ 

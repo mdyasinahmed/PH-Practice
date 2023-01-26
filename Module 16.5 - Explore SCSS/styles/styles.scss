@@ -1,8 +1,27 @@
-/ _library.scss
-$black: #000 !default;
-$blue-background:  !default;
-$box-shadow: 0 0.5rem 1rem rgba($black, 0.15) !default;
+$primary-color: #2a2a74;
+$secondary-color: #3a3570;
+$paragraph-color: #4e455a;
+$primary-background: #fde894;
+
+h1, h2{
+    color: $primary-color;
+    text-align: center;
+}
+h3{
+    color: $secondary-color;
+}
+p{
+    color: $paragraph-color;
+}
+button{
+    background-color: $secondary-color;
+    color: white;
+    border: none;
+    padding: 5px 30px;
+}
 .container{
-    margin: 0px auto;
     width: 960px;
+    margin: 0px auto;
+    padding: 50px 100px;
+    background-color: $primary-background;
 }
